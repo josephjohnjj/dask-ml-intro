@@ -1,1 +1,1 @@
-# intro-ml-dask
+# Introduction to Machine Learning Using Dask
