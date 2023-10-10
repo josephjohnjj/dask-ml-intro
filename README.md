@@ -22,9 +22,7 @@ The first process step in building a machine learning model is data preprocssing
 3. Removing duplicate information.
 4. Removing structural errors in data collection.
 5. Removing unwanted outliers - outliers can result in overfitting.
-6. Handling missing data:
-   a. Removing observations with values missing
-   b. Infering the missing values
+6. Handling missing data- Removing observations with values missing or Infering the missing values.
 
 ```
 
