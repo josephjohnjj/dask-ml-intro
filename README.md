@@ -31,6 +31,10 @@ A Dataset usually have numerical data and categorical data. Categorical data gro
 ![](figs/encoding1.png)
 ![](figs/encoding2.png)
 
+### Data Normalization
+
+Normalization  is the process of translating data into a range. It is a good practice to normalize the data - especially useful when different features have different value ranges. Normalization ensures that one feature does not overtly influence the model. 
+
 ```
 
 from sklearn.datasets import fetch_20newsgroups
