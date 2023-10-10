@@ -1,11 +1,12 @@
 # Introduction to Machine Learning Using Dask
-This tutorial demonstrates how we can scale a machine learning model in Dask.
+This tutorial introduces the concepts of Machine Learing Using Dask.
 
 Learning outcomes of the tutorial are:
-1. Learn how to implement distributed training.
-2. Learn how to train for small dataset but predict for a much larger data.
-3. Learn how to incrementally train large datasets.
-4. Learn how to use Dask high-level collections to train on large datasets.
+1. Learn how to do data prepocessing.
+2. Learn how to implement a linear regression model.
+3. Learn how to implement a K-Means clustering Model.
+4. Learn how to cross validate a model. 
+5. Learn how to build ML pipelines.
 
 Prerequisite:
 1. Experience with Scikit Learn library
@@ -13,7 +14,7 @@ Prerequisite:
 
 ***
 
-## Distributed Training
+## Data Preprocessing
 
 Distributed Training is particularly beneficial for training large models with medium-sized datasets. This scenario becomes relevant when dealing with extensive hyperparameter exploration or employing [ensemble method](https://scikit-learn.org/stable/modules/ensemble.html) involving numerous individual estimators.
 
