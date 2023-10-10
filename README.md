@@ -16,9 +16,15 @@ Prerequisite:
 
 ## Data Preprocessing
 
-Distributed Training is particularly beneficial for training large models with medium-sized datasets. This scenario becomes relevant when dealing with extensive hyperparameter exploration or employing [ensemble method](https://scikit-learn.org/stable/modules/ensemble.html) involving numerous individual estimators.
-
-To illustrate the concept of distributed training, we will utilize the [Newsgroup dataset]((https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_20newsgroups.html)) from Scikit-learn. 
+The first process step in building a machine learning model is data preprocssing. This mainly involves:
+1. Removing any unnecessary observations from your dataset.
+2. Removng redundant information.
+3. Removing duplicate information.
+4. Removing structural errors in data collection.
+5. Removing unwanted outliers - outliers can result in overfitting.
+6. Handling missing data:
+   a. Removing observations with values missing
+   b. Infering the missing values
 
 ```
 
