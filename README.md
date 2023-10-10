@@ -28,6 +28,9 @@ The first process step in building a machine learning model is data preprocssing
 
 A Dataset usually have numerical data and categorical data. Categorical data groups information (usually text) with similar characteristics. Numerical data expresses information in the form of numbers. Most machine learning algorithms cannot handle categorical variables unless it is converted to numerical data. This process is called __encoding__.
 
+![](figs/encoding1.png)
+![](figs/encoding2.png)
+
 ```
 
 from sklearn.datasets import fetch_20newsgroups
