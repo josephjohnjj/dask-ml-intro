@@ -24,6 +24,10 @@ The first process step in building a machine learning model is data preprocssing
 5. Removing unwanted outliers - outliers can result in overfitting.
 6. Handling missing data- Removing observations with values missing or Infering the missing values.
 
+### Categorical Data to Numerical Data
+
+A Dataset usually have numerical data and categorical data. Categorical data groups information (usually text) with similar characteristics. Numerical data expresses information in the form of numbers. Most machine learning algorithms cannot handle categorical variables unless it is converted to numerical data. This process is called __encoding__.
+
 ```
 
 from sklearn.datasets import fetch_20newsgroups
