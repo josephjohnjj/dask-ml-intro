@@ -111,10 +111,22 @@ k-means clustering partition n observations into k clusters in which each observ
 kmeans = KMeans(n_clusters=3, init_max_iter=1, oversampling_factor=8)
 kmeans.fit(data)
 ```
-
 ![](figs/k-means.png)
 
+## Cross Validation
 
+Cross-validation is a method for evaluating ML models by training several ML models on subsets of the data and evaluating another subset of the data. The advantages of cross validation are : 
+
+1. Identify Overfitting
+2. Comparison between different models 
+3. Hyperparameter tuning
+4. Efficiency : Allows the use of data for both training and validation
+
+```
+X_train, X_test, y_train, y_test = train_test_split(ddf_features_norm, ddf_target, shuffle=False)
+lr.fit(X_train, Y_train)
+lr.score(X_tesy, Y_test)
+```
 ***
 ## References
 1. https://tutorial.dask.org/00_overview.html
