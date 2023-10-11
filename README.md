@@ -31,12 +31,18 @@ A Dataset usually have numerical data and categorical data. Categorical data gro
 ![](figs/encoding1.png)
 ![](figs/encoding2.png)
 
+### Data Standardization
+
+Data standardization becomes relevant when there are substantial variations in the ranges of features within the input dataset or when those features are measured using different units (meteres, kilogram). 
+
+![](figs/norm_before.png)
+![](figs/norm_after.png)
+
 ### Data Normalization
 
 Normalization  is the process of translating data into a range. It is a good practice to normalize the data - especially useful when different features have different value ranges. Normalization ensures that one feature does not overtly influence the model. 
 
-![](figs/norm_before.png)
-![](figs/norm_after.png)
+In most cases data standization is preffered over normalization. In this tutorial we demonstrate both.
 
 ```
 
