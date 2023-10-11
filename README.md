@@ -78,7 +78,15 @@ ddf_features_std = scaler.fit_transform(ddf_features_preproc)
 ### Principal Component Analysis
 Principal Component Analysis (PCA) is a technique frequently employed for the purpose of reducing the dimensionality of large datasets. It accomplishes this by converting a comprehensive array of variables into a more compact representation that retains the majority of the vital information present in the original dataset.
 
+```
 
+pca = PCA(n_components=3)
+pca.fit(ddf_features_norm.to_dask_array(lengths=True))
+PCA(copy=True, iterated_power='auto', n_components=3, random_state=None, svd_solver='auto', tol=0.0, whiten=False)
+
+```
+
+## Linear Regression
 
 
 
