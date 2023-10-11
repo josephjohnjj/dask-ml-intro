@@ -88,6 +88,18 @@ PCA(copy=True, iterated_power='auto', n_components=3, random_state=None, svd_sol
 
 ## Linear Regression
 
+Linear regression tries to find the optimal W<sub>1</sub>, W<sub>2</sub>, W<sub>3</sub>, W<sub>4</sub>, so that we can predict the value of Y for the user-supplied X<sub>1</sub>, X<sub>2</sub>, X<sub>3</sub>.
+
+$$
+  Y(X_1, X_2, X_3) = W_1 * X_1 + W_2 * X_2 + W_3 * X_3 + W_4
+$$
+
+```
+lr = LinearRegression(solver_kwargs={"normalize":False})
+lr.fit(X, Y)
+predicted_value = lr.predict(x)
+```
+
 
 
 
