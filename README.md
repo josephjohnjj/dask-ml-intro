@@ -112,8 +112,7 @@ kmeans = KMeans(n_clusters=3, init_max_iter=1, oversampling_factor=8)
 kmeans.fit(data)
 ```
 
-
-
+![](figs/k-means.png)
 
 
 ***
