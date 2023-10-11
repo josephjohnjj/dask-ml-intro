@@ -87,6 +87,7 @@ PCA(copy=True, iterated_power='auto', n_components=3, random_state=None, svd_sol
 ```
 
 ## Linear Regression
+Linear regression is used to predict the value of a variable based on the value of another variable or a set of varibales. It a type of **Supervised Learning**. Supervised machine learning involves the process of establishing a connection between input variables and output variables. The input variabls are often called features or independent variables, while the output is commonly denoted as the target or 'dependent variables. Data containing both these features and the target is typically termed labeled data.
 
 Linear regression tries to find the optimal W<sub>1</sub>, W<sub>2</sub>, W<sub>3</sub>, W<sub>4</sub>, so that we can predict the value of Y for the user-supplied X<sub>1</sub>, X<sub>2</sub>, X<sub>3</sub>.
 
