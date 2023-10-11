@@ -85,6 +85,7 @@ pca.fit(ddf_features_norm.to_dask_array(lengths=True))
 PCA(copy=True, iterated_power='auto', n_components=3, random_state=None, svd_solver='auto', tol=0.0, whiten=False)
 
 ```
+***
 
 ## Linear Regression
 Linear regression is used to predict the value of a variable based on the value of another variable or a set of varibales. It a type of **Supervised Learning**. Supervised machine learning involves the process of establishing a connection between input variables and output variables. The input variabls are often called features or independent variables, while the output is commonly denoted as the target or 'dependent variables. Data containing both these features and the target is typically termed labeled data.
@@ -100,6 +101,17 @@ lr = LinearRegression(solver_kwargs={"normalize":False})
 lr.fit(X, Y)
 predicted_value = lr.predict(x)
 ```
+***
+
+## K-Means Clustering
+
+k-means clustering partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centroid). k-means clustering is a type of **Unsupervised Learning**. In unsupervised learning the algorithm groups or patterns without the need of labeled data.
+
+```
+kmeans = KMeans(n_clusters=3, init_max_iter=1, oversampling_factor=8)
+kmeans.fit(data)
+```
+
 
 
 
