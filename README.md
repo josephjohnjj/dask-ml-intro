@@ -128,6 +128,12 @@ lr.fit(X_train, Y_train)
 lr.score(X_tesy, Y_test)
 ```
 ***
+
+## Pipelines in ML
+
+he pipeline's objective is to combine multiple steps that can be cross-validated as a cohesive unit, all while adjusting various parameters. Various machine learning steps can be interconnected within a unified pipeline object.
+
+***
 ## References
 1. https://tutorial.dask.org/00_overview.html
 2. https://ml.dask.org
