@@ -135,6 +135,12 @@ he pipeline's objective is to combine multiple steps that can be cross-validated
 
 ![](figs/pipeline.png)
 
+```
+pipe = Pipeline([('reduce_dim', PCA()), 
+                 ('cluster', KMeans(n_clusters = 3, random_state = 0, n_init='auto'))
+                ])
+```
+
 ***
 ## References
 1. https://tutorial.dask.org/00_overview.html
