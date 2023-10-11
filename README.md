@@ -42,6 +42,8 @@ Data standardization becomes relevant when there are substantial variations in t
 
 Normalization  is the process of translating data into a range. It is a good practice to normalize the data - especially useful when different features have different value ranges. Normalization ensures that one feature does not overtly influence the model. 
 
+![](figs/normal_norm.png)
+
 In most cases data standization is preffered over normalization. In this tutorial we demonstrate both.
 
 ```
